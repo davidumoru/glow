@@ -4,7 +4,7 @@
   "description": "Party in your Terminal!",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest tests/glowr.test.js",
     "test:log": "node tests/console.test.js"
   },
   "repository": {
