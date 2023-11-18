@@ -34,11 +34,16 @@ const styles = {
 };
 
 function glowr(text, style) {
-  if (!styles[style]) {
+  const styleParts = style.split('.');
+  const mainStyle = styleParts[0];
+  const subStyle = styleParts[1];
+
+  if (!styles[mainStyle] || (subStyle && !styles[mainStyle][subStyle])) {
     console.error(`Invalid style: ${style}`);
     return text;
   }
-  return styles[style] + text + styles.reset;
+
+  return subStyle ? styles[mainStyle][subStyle] + text + styles.reset : styles[mainStyle] + text + styles.reset;
 }
 
 module.exports = glowr;
