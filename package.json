@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Party in your Terminal!",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "jest tests/glowr.test.js",
     "test:log": "node tests/console.test.js"
