@@ -34,6 +34,10 @@ const styles = {
 };
 
 function glowr(text, style) {
+  if (!styles[style]) {
+    console.error(`Invalid style: ${style}`);
+    return text;
+  }
   return styles[style] + text + styles.reset;
 }
 
