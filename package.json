@@ -1,21 +1,21 @@
 {
   "name": "glowr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Party in your Terminal!",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidumoru/glow.git"
+    "url": "git+https://github.com/davidumoru/glowr.git"
   },
   "author": "David Umoru",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidumoru/glow/issues"
+    "url": "https://github.com/davidumoru/glowr/issues"
   },
-  "homepage": "https://github.com/davidumoru/glow#readme",
+  "homepage": "https://github.com/davidumoru/glowr#readme",
   "devDependencies": {
     "jest": "^29.7.0"
   }

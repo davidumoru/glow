@@ -29,8 +29,8 @@ const styles = {
   bgWhite: "\x1b[47m",
 };
 
-function glow(text, style) {
+function glowr(text, style) {
   return styles[style] + text + styles.reset;
 }
 
-module.exports = glow;
+module.exports = glowr;
