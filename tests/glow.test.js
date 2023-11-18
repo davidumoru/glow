@@ -7,13 +7,12 @@ describe("glowr function", () => {
   });
 
   test("applies foreground color correctly", () => {
-    const result = glowr("Test Text", "fgGreen");
+    const result = glowr("Test Text", "fg.green");
     expect(result).toBe("\x1b[32mTest Text\x1b[0m");
   });
 
   test("applies background color correctly", () => {
-    const result = glowr("Test Text", "bgBlue");
+    const result = glowr("Test Text", "bg.blue");
     expect(result).toBe("\x1b[44mTest Text\x1b[0m");
   });
-
 });
