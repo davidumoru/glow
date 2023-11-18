@@ -6,20 +6,20 @@
 
 </div>
 
-
 ## Install
+
 This is a npm package available through the npm [registry](https://www.npmjs.com/).
 
 Before installing, download and install Node.js.
 
 Installation is done using the npm install command:
 
-
 ```
 npm i glowr
 ```
 
 ## Usage
+
 ```
 const glowr = require('glowr');
 
@@ -28,7 +28,9 @@ console.log(glowr("This text has a Blue Background", "bgBlue"));
 ```
 
 ## Styles
+
 **Text Styles**
+
 - `reset:` Resets text formatting to the default settings.
 - `bright:` Increases the brightness or intensity of the text.
 - `dim:` Decreases the brightness or intensity of the text.
@@ -38,8 +40,9 @@ console.log(glowr("This text has a Blue Background", "bgBlue"));
 - `hidden:` Makes the text hidden or invisible.
 
 **Foreground Colors**
+
 - `fgBlack`
-- `fgRed` 
+- `fgRed`
 - `fgGreen`
 - `fgYellow`
 - `fgBlue`
@@ -48,6 +51,7 @@ console.log(glowr("This text has a Blue Background", "bgBlue"));
 - `fgWhite`
 
 **Background Colors**
+
 - `bgBlack`
 - `bgRed`
 - `bgGreen`

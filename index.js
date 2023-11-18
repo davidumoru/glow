@@ -34,7 +34,7 @@ const styles = {
 };
 
 function glowr(text, style) {
-  const styleParts = style.split('.');
+  const styleParts = style.split(".");
   const mainStyle = styleParts[0];
   const subStyle = styleParts[1];
 
@@ -43,7 +43,9 @@ function glowr(text, style) {
     return text;
   }
 
-  return subStyle ? styles[mainStyle][subStyle] + text + styles.reset : styles[mainStyle] + text + styles.reset;
+  return subStyle
+    ? styles[mainStyle][subStyle] + text + styles.reset
+    : styles[mainStyle] + text + styles.reset;
 }
 
 module.exports = glowr;
