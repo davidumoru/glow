@@ -1,4 +1,4 @@
-const glow = require("../src/index");
+const glow = require("../index");
 
 // Text Style
 console.log(glow("This text has a 'bright' text styling", "bright"))

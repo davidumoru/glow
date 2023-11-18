@@ -1,4 +1,4 @@
-const glow = require("../src/index");
+const glow = require("../index");
 
 describe("glow function", () => {
   test("applies text style correctly", () => {
