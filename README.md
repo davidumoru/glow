@@ -24,7 +24,7 @@ npm i glowr
 const glowr = require('glowr');
 
 
-console.log(glowr("This text has a Blue Background", "bgBlue"));
+console.log(glowr("This text has a Blue Background", "bg.blue"));
 ```
 
 ## Styles
@@ -41,22 +41,37 @@ console.log(glowr("This text has a Blue Background", "bgBlue"));
 
 **Foreground Colors**
 
-- `fgBlack`
-- `fgRed`
-- `fgGreen`
-- `fgYellow`
-- `fgBlue`
-- `fgMagenta`
-- `fgCyan`
-- `fgWhite`
+- `fg.black`
+- `fg.red`
+- `fg.green`
+- `fg.yellow`
+- `fg.blue`
+- `fg.magenta`
+- `fg.cyan`
+- `fg.white`
 
 **Background Colors**
 
-- `bgBlack`
-- `bgRed`
-- `bgGreen`
-- `bgYellow`
-- `bgBlue`
-- `bgMagenta`
-- `bgCyan`
-- `bgWhite`
+- `bg.black`
+- `bg.red`
+- `bg.green`
+- `bg.yellow`
+- `bg.blue`
+- `bg.magenta`
+- `bg.cyan`
+- `bg.white`
+
+## Contributing
+Contributions are welcome! If you would like to contribute to this project, please check out [Contribution Guide](CONTRIBUTING.md).
+
+## People
+The inception and ongoing upkeep of this project are attributed to [David Umoru](https://github.com/davidumoru)
+
+## Browser Compatibility
+Starting from Chrome version 69, ANSI escape codes are inherently supported in the developer console.
+
+## Windows Users
+For an enhanced experience, it is recommended to switch to [Windows Terminal](https://github.com/microsoft/terminal) rather than using cmd.exe.
+
+## Licence
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
