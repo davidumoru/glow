@@ -1,4 +1,4 @@
-const glowr = require("../index");
+const glowr = require("../src/index");
 
 // Text Style
 console.log(glowr("This text is not styled", "reset"));

@@ -2,8 +2,8 @@
   "name": "glowr",
   "version": "1.0.4",
   "description": "Party in your Terminal!",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
   "keywords": [
 		"color",
 		"colour",

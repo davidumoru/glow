@@ -1,4 +1,4 @@
-const glowr = require("../index");
+const glowr = require("../src/index");
 
 describe("glowr function", () => {
   test("applies text style correctly", () => {
